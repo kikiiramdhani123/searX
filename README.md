@@ -9,38 +9,38 @@ Kebutuhan Sistem
 Proses Instalasi
 Sebelum melakukan instalasi pastikan kita mempunyai akses terhadap repository paket-paket yang kita butuhkan:
 1.	Install paket-paket yang dibutuhkan oleh Searx dan pastikan paket tersebut up-to-date
-
-
-
+$ sudo apt-get install git build-essential libxslt-dev python-dev python-virtualenv python-pybabel zlib1g-dev libffi-dev libssl-dev
 
 2.	Install Searx search engine dengan kode di bawah ini
-
-
-
-
+$ sudo git clone https://github.com/asciimoo/searx.git 
+$ sudo useradd searx -d /usr/local/searx 
+$ sudo chown searx:searx -R /usr/local/searx cd /usr/local
 
 3.	Install kebutuhan search engine yang berupa python framework virtual env
-
-
-
-
-
-
+$ sudo -u searx -i 
+$ cd /usr/local/searx 
+$ virtualenv searx-ve 
+$ . ./searx-ve/bin/activate 
+$ ./manage.sh update_packages
 
 Konfigurasi
+$ sed -i -e "s/ultrasecretkey/`openssl rand -hex 16`/g" searx/settings.yml
 
 Web Server
 Install Apache sebagai Web Server untuk searX yang akan digunakan nanti. Disini kami menginstall Apache sebagai web server di virtual box dengan system operasi linux agar searx juga bisa kami gunakan pada client di Notebook kami yang menggunakan operasi Windows dengan menentukan location Web Server Apache pada konfigurasinya nanti.
 1.	Tambahkan modul wsgi. Wsgi adalah salah satu modul milik Apache
 sudo apt-get install libapache2-mod-uwsgi
 sudo a2enmod uwsgi
+
 2.	Tambahkan konfigurasi ini pada file /etc/apache2/apache2.conf:
 <Location />
     Options FollowSymLinks Indexes
     SetHandler uwsgi-handler
     uWSGISocket /run/uwsgi/app/searx/socket
 </Location>
+
 Pada bagian <Location /> kita harus memberikan alamat root yang akan kita gunakan saat ingin membukanya di client. Contohnya <Location /searx> atau juga bisa diisi dengan kata-kata lain <Location /student> 
+
 3.	Restart Apache
 sudo /etc/init.d/apache2 restart
 
