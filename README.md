@@ -1,7 +1,7 @@
  ![image](https://user-images.githubusercontent.com/13843450/32212055-cf3fbe52-be47-11e7-95a7-2ef08d213148.png)
 
 # Sekilas Tentang
-Searx merupakan salah satu metasearch engine internet gratis dan Open Source yang mengumpulkan hasil lebih dari 70 layanan pencarian. Pengguna tidak dilacak dan diprofilkan. Selain itu, searx dapat digunakan dengan Tor untuk online secara anonim.
+Searx merupakan salah satu metasearch engine internet gratis dan Open Source yang mengumpulkan hasil lebih dari 70 layanan pencarian. Pengguna tidak dilacak dan diprofilkan. Selain itu, searX dapat digunakan dengan Tor untuk online secara anonim.
 
 # Instalasi
 ## Kebutuhan Sistem
@@ -36,7 +36,7 @@ $ ./manage.sh update_packages
 note: Gunakan tanda kutip disebelah kiri angka 1 sebelum dan sesudah * *openssl rand -hex 16* *
 
 # Web Server
-Install Apache sebagai Web Server untuk searX yang akan digunakan nanti. Disini kami menginstall Apache sebagai web server di virtual box dengan system operasi linux agar searx juga bisa kami gunakan pada client di Notebook kami yang menggunakan operasi Windows dengan menentukan location Web Server Apache pada konfigurasinya nanti.
+Install Apache sebagai Web Server untuk searX yang akan digunakan nanti. Disini kami menginstall Apache sebagai web server di virtual box dengan sistem operasi linux agar searX juga bisa kami gunakan pada client di Notebook kami yang menggunakan sistem operasi Windows dengan menentukan location Web Server Apache pada konfigurasinya nanti.
 1.	Tambahkan modul wsgi. Wsgi adalah salah satu modul milik Apache
 
 ``
