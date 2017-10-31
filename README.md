@@ -29,7 +29,9 @@ $ ./manage.sh update_packages
 ```
 #Konfigurasi
 
-`$ sed -i -e "s/ultrasecretkey/`openssl rand -hex 16`/g" searx/settings.yml`
+`$ sed -i -e "s/ultrasecretkey/'openssl rand -hex 16'/g" searx/settings.yml`
+
+note: Gunakan tanda kutip disebelah kiri angka 1 sebelum dan sesudah * *openssl rand -hex 16* *
 
 # Web Server
 Install Apache sebagai Web Server untuk searX yang akan digunakan nanti. Disini kami menginstall Apache sebagai web server di virtual box dengan system operasi linux agar searx juga bisa kami gunakan pada client di Notebook kami yang menggunakan operasi Windows dengan menentukan location Web Server Apache pada konfigurasinya nanti.
