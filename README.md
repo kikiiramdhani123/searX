@@ -7,6 +7,8 @@ Searx merupakan salah satu metasearch engine internet gratis dan Open Source yan
 ## Kebutuhan Sistem
 •	Sistem operasi Linux, Ubuntu Server
 
+• Apache web server
+
 ## Proses Instalasi
 Sebelum melakukan instalasi pastikan kita mempunyai akses terhadap repository paket-paket yang kita butuhkan:
 1.	Install paket-paket yang dibutuhkan oleh Searx dan pastikan paket tersebut up-to-date
@@ -80,6 +82,7 @@ Gambar. Waktu dan bahasa searX
 ![image](https://user-images.githubusercontent.com/13843450/32212354-093ac6dc-be49-11e7-8417-b653aaedeb91.png) 
 
 Gambar. Waktu dan bahasa Google
+
 Untuk pengaturan waktu dan bahasa pada searX berupa dropdown yang disediakan langsung pada antarmukanya. Sedangkan pada Google kita harus memilih menu setelan agar bahasa yang ingin kita pilih keluar dan menu alat agar pengaturan waktu keluar.
 
 3.	Biografi
@@ -136,21 +139,31 @@ Pada searX juga terdapat menu suggestion sama seperti Google. Namun bedanya sear
 **SearX** merupakan metasearch engine yang dibuat menggunakan  bahasa pemrograman Phyton, aplikasi search engine ini memiliki kelebihan, diantaranya:
 
 o	Host sendiri
+
 o	Tidak ada pelacakan pengguna
+
 o	Tidak ada profil pengguna
+
 o	Didukung 70 search engine
+
 o	Mudah diintegrasi dengan mesin pencari
+
 o	Cookie tidak digunakan secara default
+
 o	Sambungan yang aman dan terenkripsi (HTTPS/SSL)
+
 o	Host oleh organisasi seperti La Quadrature du Net yang mempromosikan hak digital.
 
 **SearX** memiliki kelemahan antara lain:
 
 o	Tidak dapat melakukan penelusuran secara mendetail
+
 o	Relatif lebih lama dibandingkan menggunakan Search Engine biasa.
+
 o	Tidak memiliki database sehingga informasi yang dihasilkan relatif terbatas
 
 # Referensi
 
 1.	About SearX (https://asciimoo.github.io/searx/) – SearX
+
 2.	searX installation (https://asciimoo.github.io/searx/dev/install/installation.html)
