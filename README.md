@@ -1,4 +1,4 @@
- 
+ ![image](https://user-images.githubusercontent.com/13843450/32212055-cf3fbe52-be47-11e7-95a7-2ef08d213148.png)
 
 Sekilas Tentang
 Searx merupakan salah satu metasearch engine internet gratis dan Open Source yang mengumpulkan hasil lebih dari 70 layanan pencarian. Pengguna tidak dilacak dan diprofilkan. Selain itu, searx dapat digunakan dengan Tor untuk online secara anonim.
