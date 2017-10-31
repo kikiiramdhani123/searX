@@ -68,6 +68,7 @@ Gambar. Waktu dan bahasa searX
 
 Gambar. Waktu dan bahasa Google
 Untuk pengaturan waktu dan bahasa pada searX berupa dropdown yang disediakan langsung pada antarmukanya. Sedangkan pada Google kita harus memilih menu setelan agar bahasa yang ingin kita pilih keluar dan menu alat agar pengaturan waktu keluar.
+
 3.	Biografi
 
 ![image](https://user-images.githubusercontent.com/13843450/32212375-1546e30c-be49-11e7-9833-cb0ab4758ad6.png) 
@@ -79,6 +80,7 @@ Gambar. Biografi searX
 Gambar. Biografi Google
 
 Sama seperti Google, jika kata kunci yang kita masuk berupa entitas/objek maka searX juga akan menampilkan kolom biografi dari objek tersebut.
+
 4.	Paging
 
 ![image](https://user-images.githubusercontent.com/13843450/32212395-2bded714-be49-11e7-876c-3ea90b0b7ecc.png) 
@@ -90,6 +92,7 @@ Gambar. Paging searX
 Gambar. Paging Google
 
 Paging pada Google lebih lengkap dan mudah disbanding searX karena menyediakan nomer halamannya langsung yang ingin kita tuju. Sedangkan searX hanya berupa previos page dan next page yang berarti kita hanya bisa mengunjungi halamannya satu per satu.
+
 5.	Sugestion dan beberapa tambahan
 
 ![image](https://user-images.githubusercontent.com/13843450/32212424-419cf22a-be49-11e7-9575-776f3cada41f.png) 
@@ -118,6 +121,7 @@ Pada searX juga terdapat menu suggestion sama seperti Google. Namun bedanya sear
 
 # Pembahasan
 **SearX** merupakan metasearch engine yang dibuat menggunakan  bahasa pemrograman Phyton, aplikasi search engine ini memiliki kelebihan, diantaranya:
+
 o	Host sendiri
 o	Tidak ada pelacakan pengguna
 o	Tidak ada profil pengguna
@@ -128,10 +132,12 @@ o	Sambungan yang aman dan terenkripsi (HTTPS/SSL)
 o	Host oleh organisasi seperti La Quadrature du Net yang mempromosikan hak digital.
 
 **SearX** memiliki kelemahan antara lain:
+
 o	Tidak dapat melakukan penelusuran secara mendetail
 o	Relatif lebih lama dibandingkan menggunakan Search Engine biasa.
 o	Tidak memiliki database sehingga informasi yang dihasilkan relatif terbatas
 
 # Referensi
+
 1.	About SearX (https://asciimoo.github.io/searx/) – SearX
 2.	searX installation (https://asciimoo.github.io/searx/dev/install/installation.html)
