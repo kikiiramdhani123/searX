@@ -9,6 +9,8 @@ Searx merupakan salah satu metasearch engine internet gratis dan Open Source yan
 
 • Apache web server
 
+• Python
+
 ## Proses Instalasi
 Sebelum melakukan instalasi pastikan kita mempunyai akses terhadap repository paket-paket yang kita butuhkan:
 1.	Install paket-paket yang dibutuhkan oleh Searx dan pastikan paket tersebut up-to-date
